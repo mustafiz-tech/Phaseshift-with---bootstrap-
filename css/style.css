@@ -1,0 +1,200 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+/* header section */
+
+
+
+header{
+    text-align: center;
+    min-height: 2000px;
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    padding-bottom: 3rem;
+}
+
+
+/* nav area */
+nav{
+    text-align: left;
+    color: grey;
+    background-color: #000;
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 5rem;
+}
+nav h1{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+span{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: grey;
+}
+/* banner section */
+
+
+/* top section */
+.top-heading{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.top-a{
+    text-decoration: underline;
+    color: #fff;
+}
+.top-btn{
+    font-size: 1.7rem;
+    padding: 0.8rem 3rem;
+    background-color: hotpink;
+    color: #fff;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 6rem;
+    display: inline-block;
+}
+
+/* image section */
+
+.image-section{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0;
+    margin-bottom: 4rem;
+    border: 1px solid grey;
+}
+img{
+    width: 100%;
+}
+.image-heading{
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 300;
+    padding: 0 1rem;
+    color: grey;
+    margin: 2.5rem 0;
+}
+.btn{
+    padding: 0.8rem 2.5rem;
+    background-color: hotpink;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500; 
+    margin-bottom: 3rem;
+}
+
+/* information section */
+.information{
+    color: #fff;
+    padding: 1rem 1rem;
+    text-align: left;
+}
+.fa{
+    font-size: 3rem;
+    display: block;
+}
+h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+p{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+
+hr{
+    border: 1px solid #fff;
+}
+
+/* form section */
+section{
+    padding: 5rem 0;
+    background-color: hotpink;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase
+}
+section h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+section p{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.text{
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+::-webkit-input-placeholder {
+    color: grey;
+    font-size: 1rem;
+}
+.massege{
+    padding: 1rem 0 0 1rem;
+    width: 100%;
+    height: 250px;
+    font-size: 1rem;
+    color: grey;
+    border-radius: 0.5rem;
+}
+.submit{
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    background-color: hotpink;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+ /* footer section */
+ 
+
+footer{
+    text-align: center;
+    background-color: #000;
+    color: grey;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+footer p{
+    margin-bottom: 1rem;
+}
+.footer-a{
+    color: #fff;
+}
+.footer-fa{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
